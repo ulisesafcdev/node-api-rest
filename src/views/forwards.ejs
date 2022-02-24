@@ -1,0 +1,33 @@
+<%- include('inc/head') %>
+
+<%- include('inc/menu') %>
+
+<div class="container">
+    
+    <table class="table table-bordered">
+        
+        <thead>
+            <tr>
+                <th>Nombre de Jugador</th>
+                <th>Pais de Origen</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="loader">
+                <td colspan="2"><div class="spinner"></div></td>
+            </tr>
+        </tbody>
+        
+    </table>
+    
+    <template id="tabla-template">
+        <tr>
+            <td class="nombre"></td>
+            <td class="pais"></td>
+        </tr>
+    </template>
+    
+</div>
+<script src="/js/datos.js"></script>
+
+<%- include('inc/footer') %>

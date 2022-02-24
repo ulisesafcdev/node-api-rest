@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Consolas';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #01012cfa;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 10rem;
+}
+h3{
+    font-size: 3rem;
+}
+a{
+    font-size: 2rem;
+    color: #8f8f8f;
+}
+
